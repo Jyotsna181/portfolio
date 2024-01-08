@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jyotsna Rasam</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d5d77cd114.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <a href="index.html" class="logo"><h1></i>&lt;/ Jyotsna Rasam &gt;</h1></a>
+            <div class="nav-menu">
+                <ul class="nav-list grid">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#qualification" class="nav-link">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#portfolio" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <i class="fa-sharp fa-solid fa-xmark nav-close" onclick="toggleMenu()"></i>
+            </div>
+            <div class="nav-toggle" onclick="toggleMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+    <main class='main'>
+        <section class="home section" id="home">
+            <div class="left">
+                <img src="images/home.webp" alt="">
+            </div>
+            <div>
+                <button class='runbtn' onclick="playSound()">Run</button>
+            </div>
+            <div class="textright show grid" id='textright'>
+                <object data="images/hand.svg" type="image/svg+xml" class="svg"></object>
+                <div class="name-title">
+                    <h1>Jyotsna Rasam 
+                </h1>
+                </div>
+                <h4>Web Developer <span>India</span></h4>
+                <p>I am a Frontend developer based in India. A Web Developer with three years of experience specializing in front-end development. 
+                    Build high quality websites and identify opportunities to enhance the user experience.</p>
+                <a href="#about" class='button'>Learn more About Me !</a>
+            </div>   
+        </section>
+        <section class="about section" id="about">
+            <h2 class="title">About Me</h2>
+            <span class="subtitle">Information</span>
+
+            <div class="about-container container grid">
+                <img src="images/about.png" class="about-img"/>
+                <div class="about-data">
+                    <div class="about-desp">
+                        <div class="filed"><h3>Name</h3>: <span>Jyotsna Rasam</span></div><br />
+                        <div class="filed"><h3>Education</h3>: <span>Bacholar's of Computers Science and Engineering</span></div><br />                        
+                        <div class="filed"><h3>Experience</h3>: <span>3 years</span></div>        <br />                
+                        <div class="filed"><h3>Passion</h3>: <span>Creative Design and Development</span></div><br />    
+                    </div>
+                    <div class="about-info grid">
+                        <div class="about-box">
+                            <i class="fa-solid fa-folder-open about-icon"></i>
+                            <h3 class="about-title">Articles Publish</h3>
+                            <span class="about-subtitle">20+</span>
+                        </div>
+                        <div class="about-box">
+                            <i class="fa-solid fa-pen-to-square about-icon"></i>
+                            <h3 class="about-title">Projects</h3>
+                            <span class="about-subtitle">10+</span>
+                        </div>
+                    </div>
+                    <a href="images/resume.pdf" class="button">Download CV</a>
+                </div>
+            </div>
+        </section>
+        <section class="skills section" id='skills'>
+            <h2 class="title">Skills</h2>
+            <span class="subtitle">My Technical Skills</span>
+    
+            <div class="skill-container container grid">
+                <div class="frontend">
+                    <div class="skills-content">
+                        <h3 class="skill-title">Frontend Development</h3>
+                        <div class="skill-box">
+                            <div class="skill-group">
+    
+                                <div class="skill-data">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <div>
+                                    <h3 class="skill-name">HTML</h3>
+                                    <span class="level">Advance</span>
+                                </div>
+                                </div>
+    
+                                <div class="skill-data">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <div>
+                                    <h3 class="skill-name">CSS</h3>
+                                    <span class="level">Advance</span>
+                                </div>
+                                </div>
+    
+                                <div class="skill-data">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <div>
+                                        <h3 class="skill-name">Bootstrap</h3>
+                                        <span class="level">Advance</span>
+                                    </div>
+                                </div>
+    
+                                
+                            </div>
+                            <div class="skill-group">
+    
+    
+                            <div class="skill-data">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <div>
+                                        <h3 class="skill-name">Tailwind CSS</h3>
+                                        <span class="level">Advance</span>
+                                    </div>
+                                </div>
+                                <div class="skill-data">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <div>
+                                        <h3 class="skill-name">JavaScript</h3>
+                                        <span class="level">Intermediate</span>
+                                    </div>
+                                </div>
+    
+                                <div class="skill-data">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <div>
+                                    <h3 class="skill-name">React JS</h3>
+                                    <span class="level">Intermediate</span>
+                                </div>
+                                </div>
+    
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="backend">
+                <div class="skills-content">
+                        <h3 class="skill-title">Backend Development</h3>
+                        <div class="skill-box">
+                            <div class="skill-group">
+    
+                                <div class="skill-data">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <div>
+                                    <h3 class="skill-name">PHP</h3>
+                                    <span class="level">Advance</span>
+                                </div>
+                                </div>
+    
+                                <div class="skill-data">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <div>
+                                    <h3 class="skill-name">Laravel</h3>
+                                    <span class="level">Advance</span>
+                                </div>
+                                </div>
+    
+                                <div class="skill-data">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <div>
+                                    <h3 class="skill-name">Firebace</h3>
+                                    <span class="level">Advance</span>
+                                </div>
+                                </div>
+                                
+                            </div>
+                            <div class="skill-group">
+    
+                                <div class="skill-data">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <div>
+                                        <h3 class="skill-name">Firebase</h3>
+                                        <span class="level">Intermediate</span>
+                                    </div>
+                                </div>
+    
+                                <div class="skill-data">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <div>
+                                    <h3 class="skill-name">Express JS</h3>
+                                    <span class="level">Intermediate</span>
+                                </div>
+                                </div>
+    
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="services section" id="services">
+            <h2 class="title">Services</h2>
+            <span class="subtitle">What I will do !</span>
+    
+            <div class="services-container container grid">
+                <div class="services-content">
+                    <div>
+                        <i class="fa-solid fa-code services-icon"></i>
+                        <h3 class="service-title">Frontend Devlopment</h3>
+                    </div>
+    
+                    <span class="services-button" onclick="openModal('frontendModel')">View More 
+                        <i class="fa-solid fa-arrow-right-long services-btn-icon"></i>
+                     </span>
+    
+                    <div class="service-model" id="frontendModel">
+                        <div class="service-model-content">
+                        <i onclick="closeModal('frontendModel')" class="fa-sharp fa-solid fa-xmark service-close"></i>
+                            <h3 class="model-title">Frontend Devlopment</h3>
+                            <p class="model-desp">Services with more than 3years of experience. 
+                            Providing Creative templates designs. </p>
+    
+                            <ul class="service-model-services grid">
+                                <li class="service-model-service">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <p class="service-mode-info">Design and develop creative templates.</p>
+                                </li>
+    
+                                <li class="service-model-service">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <p class="service-mode-info">Create responsive web pages.</p>
+                                </li>
+    
+                                <li class="service-model-service">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <p class="service-mode-info">Design awesome portfolio designs.</p>
+                                </li>
+    
+                                <li class="service-model-service">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <p class="service-mode-info">Single-page website Development.</p>
+                                </li>
+    
+                                <li class="service-model-service">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <p class="service-mode-info">Multi-page website Development.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="services-content">
+                    <div>
+                    <i class="fa-sharp fa-solid fa-file-code services-icon"></i>
+                        <h3 class="service-title">Backend Devlopment</h3>
+                    </div>
+    
+                    <span class="services-button" onclick="openModal('backendModel')">View More 
+                        <i class="fa-solid fa-arrow-right-long services-btn-icon"></i>
+                     </span>
+    
+                    <div class="service-model" id="backendModel">
+                        <div class="service-model-content">
+                            <i onclick="closeModal('backendModel')" class="fa-sharp fa-solid fa-xmark service-close"></i>
+                            <h3 class="model-title">Backend Devlopment</h3>
+                            <p class="model-desp">Services with more than 3years of experience  of design and create databases. </p>
+    
+                            <ul class="service-model-services grid">
+                                <li class="service-model-service">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <p class="service-mode-info">Create Databases.</p>
+                                </li>
+    
+                                <li class="service-model-service">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <p class="service-mode-info">Famelier with MySQL, PHP, Laravel etc., backend frameworks</p>
+                                </li>
+    
+                                <li class="service-model-service">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <p class="service-mode-info">realible working with CMS frameworks.</p>
+                                </li>
+    
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="services-content">
+                    <div>
+                        <i class="fa-sharp fa-solid fa-file-pen services-icon"></i>
+                        <h3 class="service-title">Technical Content writing</h3>
+                    </div>
+    
+                    <span class="services-button" onclick="openModal('contentWritingModel')">View More 
+                        <i class="fa-solid fa-arrow-right-long services-btn-icon"></i>
+                     </span>
+    
+                    <div class="service-model" id="contentWritingModel">
+                        <div class="service-model-content">
+                            <i onclick="closeModal('contentWritingModel')" class="fa-sharp fa-solid fa-xmark service-close"></i>
+                            <h3 class="model-title">Technical Content writing</h3>
+                            <p class="model-desp">Service of SEO friendly Technical content writing with more than 3years of experience. 
+                            20+ SEO rank 1 articles published. </p>
+    
+                            <ul class="service-model-services grid">
+                                <li class="service-model-service">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <p class="service-mode-info">SEO friendly writing.</p>
+                                </li>
+    
+                                <li class="service-model-service">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <p class="service-mode-info">Articles or blog writing on domain like web development.</p>
+                                </li>
+    
+                                <li class="service-model-service">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <p class="service-mode-info">providing 1500-2000 words articles</p>
+                                </li>
+    
+                                <li class="service-model-service">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <p class="service-mode-info">Knowledge of tools like Google Docs, MS Word, MarkDown Editor RoboHelp, </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="qualification section" id='qualification'>
+            <h2 class="title">Qualification</h2>
+            <span class="subtitle">Education && Experience</span>
+            <div class="qualification-container container">
+                <div class="qualification-tabs">
+                    <div class="qualification-button" id="qualification-button"
+                    onclick="showTab('qualification-details')"
+                     >
+                        <i class="fa-solid fa-graduation-cap qualification-icon"></i>
+                        Education
+                    </div>
+    
+                    <div class="qualification-button" id="experience-button"
+                    onclick="showTab('experience-details')"
+                     >
+                        <i class="fa-solid fa-briefcase qualification-icon"></i>
+                        Experince
+                    </div>
+                </div>
+    
+                <div class="qualification-sections">
+    
+                    <div class="qualification-content qualification-details" id="qualification-details">
+                        <div class="qualification-data">
+                            <div>
+                                <h3 class="qualification-title">Fullstack Development</h3>
+                                <span class="qualification-subtitle">Board Infinity</span>
+                                <div class="qualification-calender">
+                                <i class="fa-sharp fa-solid fa-calendar"></i>2022-present
+                                </div>
+                            </div>
+                            <div>
+                                <span class="qualification-rounder"></span>
+                                <span class="qualification-line"></span>
+                            </div>
+                        </div>
+    
+                        <div class="qualification-data">
+                            <div></div>
+                            <div>
+                                <span class="qualification-rounder"></span>
+                                <span class="qualification-line"></span>
+                            </div>
+                            <div>
+                                <h3 class="qualification-title">UI/UX Design</h3>
+                                <span class="qualification-subtitle">Coursera</span>
+                                <div class="qualification-calender">
+                                <i class="fa-sharp fa-solid fa-calendar"></i>2021
+                                </div>
+                            </div>
+        
+                        </div>
+    
+                        <div class="qualification-data">
+                            <div>
+                                <h3 class="qualification-title">Mordern PHP Development</h3>
+                                <span class="qualification-subtitle">Udemy</span>
+                                <div class="qualification-calender">
+                                <i class="fa-sharp fa-solid fa-calendar"></i>2021
+                                </div>
+                            </div>
+                            <div>
+                                <span class="qualification-rounder"></span>
+                                <span class="qualification-line"></span>
+                            </div>
+                        </div>
+    
+                        <div class="qualification-data">
+                            <div></div>
+                            <div>
+                                <span class="qualification-rounder"></span>
+                                <span class="qualification-line"></span>
+                            </div>
+                            <div>
+                                <h3 class="qualification-title">B.E in Computer sceince</h3>
+                                <span class="qualification-subtitle">University of Mumbai</span>
+                                <div class="qualification-calender">
+                                <i class="fa-sharp fa-solid fa-calendar"></i>2015-2019
+                                </div>
+                            </div>
+        
+                        </div>
+                    </div>
+    
+    
+                    <div class="qualification-content experience-details" id="experience-details">
+                        <div class="qualification-data">
+                            <div>
+                                <h3 class="qualification-title">Technical Content Writer</h3>
+                                <span class="qualification-subtitle">TreeTog</span>
+                                <div class="qualification-calender">
+                                <i class="fa-sharp fa-solid fa-calendar"></i>2023-present(part-time)
+                                </div>
+                            </div>
+    
+                            <div>
+                            <span class="qualification-rounder"></span>
+                            <span class="qualification-line"></span>
+                            </div>
+                        </div>
+    
+                        <div class="qualification-data">
+                            <div></div>
+                            <div>
+                                <span class="qualification-rounder"></span>
+                                <span class="qualification-line"></span>
+                            </div>
+                            <div>
+                                <h3 class="qualification-title">Freelance Technical Writer</h3>
+                                <span class="qualification-subtitle">Way2Class</span>
+                                <div class="qualification-calender">
+                                <i class="fa-sharp fa-solid fa-calendar"></i>2023-2023
+                                </div>
+                            </div>
+                        </div>
+                        <div class="qualification-data">
+                            <div>
+                                <h3 class="qualification-title">Technical Content Writer</h3>
+                                <span class="qualification-subtitle">Geeksforgeeks</span>
+                                <div class="qualification-calender">
+                                <i class="fa-sharp fa-solid fa-calendar"></i>2021-2022
+                                </div>
+                            </div>
+    
+                            <div>
+                            <span class="qualification-rounder"></span>
+                            <span class="qualification-line"></span>
+                            </div>
+                        </div>
+    
+                        <div class="qualification-data">
+                            <div></div>
+                            <div>
+                                <span class="qualification-rounder"></span>
+                                <span class="qualification-line"></span>
+                            </div>
+                            <div>
+                                <h3 class="qualification-title">Freelancer</h3>
+                                <span class="qualification-subtitle">Web Designer</span>
+                                <div class="qualification-calender">
+                                <i class="fa-sharp fa-solid fa-calendar"></i>2020-2021
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio section" id='portfolio'>
+            <h2 class="title">Projects</h2>
+            <span class="subtitle">Web Development Projects</span>
+            <div class="portfolio-container container grid">
+                <div class="portfolio-item">
+                    <img src="images/glossaryapp.png" class='portfolio-img' />
+                    <div class="portfolio-hover" onclick="openProjectModal('project1')">
+                        <h3 class="portfolio-title">Glossary App</h3>
+                    </div>
+                    <div class='portfolio-modal' id="project1">
+                        <div class="portfolio-modal-content">
+                            <i onclick="closeProjectModal('project1')" class="fa-sharp fa-solid fa-xmark service-close"></i>
+                            <h3 class="project-title">Glossary App</h3>
+                            <div>
+                                <p class='project-desp'>The Glossary App Website Webpage is a user-friendly online platform designed to serve as a comprehensive repository of terms and their definitions. Leveraging the power of HTML, CSS, and JS, this project aims to create a seamless and visually appealing experience for users seeking to expand their knowledge in various domains.</p>
+                            </div>
+                            <img src="images/glossaryapp.png" class="modal-img" />
+                        </div>
+                    </div>
+                </div>    
+                <div class="portfolio-item">
+                    <img src="images/fitness tracker.png" class='portfolio-img' />
+                    <div class="portfolio-hover" onclick="openProjectModal('project2')">
+                        <h3 class="portfolio-title">Fitness Tracker</h3>
+                    </div>
+                    <div class='portfolio-modal' id="project2">
+                        <div class="portfolio-modal-content">
+                            <i onclick="closeProjectModal('project2')" class="fa-sharp fa-solid fa-xmark service-close"></i>
+                            <h3 class="project-title">Fitness Tracker</h3>
+                            <div>
+                                <p class='project-desp'>Create an engaging and dynamic Fitness Tracker Website that empowers users to monitor and enhance their fitness journey. The webpage will be designed using a combination of HTML, CSS, and JS to provide a seamless and interactive user experience. The Fitness Tracker Website will offer a range of features, including personalized user profiles, real-time workout tracking, progress analytics, and goal setting.</p>
+                            </div>
+                            <img src="images/fitness tracker.png" class="modal-img" />
+                        </div>
+                    </div>
+                </div>    
+                <div class="portfolio-item">
+                    <img src="images/healthyblog.png" class='portfolio-img' />
+                    <div class="portfolio-hover" onclick="openProjectModal('project3')">
+                        <h3 class="portfolio-title">Blog Website</h3>
+                    </div>
+                    <div class='portfolio-modal' id="project3">
+                        <div class="portfolio-modal-content">
+                            <i onclick="closeProjectModal('project3')" class="fa-sharp fa-solid fa-xmark service-close"></i>
+                            <h3 class="project-title">Blog Website</h3>
+                            <div>
+                                <p class='project-desp'>The website boasts a user-friendly interface, allowing visitors to effortlessly navigate through a plethora of healthcare-related articles, blog posts, and informative content. The clean and modern design enhances readability and ensures an enjoyable browsing experience.</p>                            
+                            </div>
+                            <img src="images/healthyblog.png" class="modal-img" />
+                        </div>
+                    </div>
+                </div>    
+                <div class="portfolio-item">
+                    <img src="images/medicare.png" class='portfolio-img' />
+                    <div class="portfolio-hover" onclick="openProjectModal('project4')">
+                        <h3 class="portfolio-title">Medicare App</h3>
+                    </div>
+                    <div class='portfolio-modal' id="project4">
+                        <div class="portfolio-modal-content">
+                            <i onclick="closeProjectModal('project4')" class="fa-sharp fa-solid fa-xmark service-close"></i>
+                            <h3 class="project-title">Medicare App</h3>
+                            <div>
+                                <p class='project-desp'>The Medicare App Webpage project aims to create a user-friendly and responsive web interface for a healthcare application, focusing on providing comprehensive information and services related to Medicare. Developed using HTML, CSS, and JavaScript, this webpage will offer an intuitive and visually appealing experience for users seeking information on Medicare services, plans, and resources.</p>                            
+                            </div>
+                            <img src="images/medicare.png" class="modal-img" />
+                        </div>
+                    </div>
+                </div>    
+                <div class="portfolio-item">
+                    <img src="images/music.png" class='portfolio-img' />
+                    <div class="portfolio-hover" onclick="openProjectModal('project5')">
+                        <h3 class="portfolio-title">Music Player</h3>
+                    </div>
+                    <div class='portfolio-modal' id="project5">
+                        <div class="portfolio-modal-content">
+                            <i onclick="closeProjectModal('project5')" class="fa-sharp fa-solid fa-xmark service-close"></i>
+                            <h3 class="project-title">Music Player</h3>
+                            <div>
+                                <p class='project-desp'>This music player looks like a regular music player and works the same as it. We create a list of songs and fetch it from JavaScript. It also shows the duration of each song in front of it. We can tap on a song and it will play automatically. There are three button play-pauses, next and previous to play music smoothly. 
+                                    Also there is a progress bar to move the current time of song forward or backward.
+                                </p>                            
+                            </div>
+                            <img src="images/music.png" class="modal-img" />
+                        </div>
+                    </div>
+                </div>    
+                <div class="portfolio-item">
+                    <img src="images/course managment.png" class='portfolio-img' />
+                    <div class="portfolio-hover" onclick="openProjectModal('project6')">
+                        <h3 class="portfolio-title">Course App</h3>
+                    </div>
+                    <div class='portfolio-modal' id="project6">
+                        <div class="portfolio-modal-content">
+                            <i onclick="closeProjectModal('project6')" class="fa-sharp fa-solid fa-xmark service-close"></i>
+                            <h3 class="project-title">Course App</h3>
+                            <div>
+                                <p class='project-desp'>The Course Management Website Webpage project aims to create an intuitive and user-friendly platform for managing courses and related information. This web application will be developed using a combination of HTML, CSS, and JavaScript to provide a seamless and interactive user experience.
+                                </p>                            
+                            </div>
+                            <img src="images/course managment.png" class="modal-img" />
+                        </div>
+                    </div>
+                </div>    
+                <a href="https://github.com/Jyotsna181" class='button'>View All Projects</a>
+            </div>            
+        </section>
+        <section class="contact section" id='contact'>
+            <h2 class="title">Contact Me</h2>
+            <span class="subtitle">Contact if Interested to work</span>
+    
+            <div class="contact-container container grid">
+                <div class="content">
+                    <h3 class="contact-title">Contact Information</h3>
+    
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <i class="fa-solid fa-envelope card-icon"></i>
+                            <h3 class="contact-card-title">Email</h3>
+                            <span class="contact-card-data">jyotsnarasam08@gmail.com</span>
+    
+                            <a href="mailto:jyotsnarasam08@gmail.com" class="contact-button">
+                                <i class="contact-button-icon"></i>
+                            </a>
+                        </div>
+    
+                        <div class="contact-card">
+                            <i class="fa-brands fa-whatsapp card-icon"></i>
+                            <h3 class="contact-card-title">Whatsapp</h3>
+                            <span class="contact-card-data">827-578-0145</span>
+    
+                            <a href="https://wa.me/qr/ZEZVMH3MLFOXN1" class="contact-button">
+                                <i class="contact-button-icon"></i>
+                            </a>
+                        </div>
+    
+                        <div class="contact-card">
+                            <i class="fa-solid fa-message-text card-icon"></i>
+                            <h3 class="contact-card-title">Messanger</h3>
+                            <span class="contact-card-data">jyotsna-rasam</span>
+    
+                            <a href="https://www.linkedin.com/in/jyotsna-rasam-889109152/" class="contact-button">
+                                <i class="contact-button-icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="content">
+                    <h3 class="contact-title">Write me your Project</h3>
+    
+                    <form class='form' onsubmit="sendEmail(); return false;">
+                        <div class="contact-form">
+                            <label htmlFor="" class='contact-form-tag'>Name</label>
+                            <input type="text" name='name' class='contact-form-input' />
+                        </div>
+                    
+                        <div class="contact-form">
+                            <label htmlFor="" class='contact-form-tag'>Mail</label>
+                            <input type="email" name='email' class='contact-form-input' />
+                        </div>
+                    
+                        <div class="contact-form contact-form-area">
+                            <label htmlFor="" class='contact-form-tag'>Project</label>
+                            <textarea name="project" id="" cols="30" rows="10" class='contact-form-input'></textarea>
+                        </div>
+                        <input type="submit" class='button' value="Send">
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer class='footer'>
+            <div class="footer-container container">
+                <h1 class="footer-title">Jyotsna Rasam</h1>
+    
+                <ul class='footer-list'>
+                    <li>
+                        <a href="#about" class="footer-link">About</a>
+                    </li>
+                    <li>
+                        <a href="#projects" class="footer-link">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#blogs" class="footer-link">Blogs</a>
+                    </li>
+                </ul>
+    
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/jyotsna-rasam-889109152/" class="social-icon" target='_blank'><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Jyotsna181" class="social-icon" target='_blank'><i class="fa-brands fa-github"></i></a>
+                    <a href="https://auth.geeksforgeeks.org/user/jyotsnarasam/articles" class="social-icon" target='_blank'><i class="fa-solid fa-user"></i></a>
+                </div>
+    
+                <span class='footer-copy'>&#169; JyotsnsRasam. All rights reserved</span>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
