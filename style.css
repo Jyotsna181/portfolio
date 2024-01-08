@@ -240,8 +240,8 @@ button {
   color: var(--black);
 }
 .textright .svg {
-  height: 5rem;
-  width: 5rem;
+  height: 2rem;
+  width: 2rem;
   align-items: last baseline;
 }
 .textright h4 {
